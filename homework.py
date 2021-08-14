@@ -14,7 +14,7 @@ while j<i:
     all_list.append(all)
     j = j+1
 j=1
-while j<i-1:
+while j<i:
     name = all_list[j][0]
     name_list.append(name)
     memory = all_list[j][3]
@@ -35,7 +35,7 @@ while j<number_uesr:
     j = j+1
 j=0
 i=len(all_memory)
-while j<i-1:
+while j<i:
     summa = summa + float(all_memory[j])
     summ_cpu = summ_cpu + float(all_cpu[j])
     j = j+1
